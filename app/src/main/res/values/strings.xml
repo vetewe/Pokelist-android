@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Pokelist</string>
+    <string name="pokemon_name">Pokemon Name</string>
+    <string name="description">Description</string>
+    <string name="data_name">
+        <item></item>
+    </string>
 </resources>
