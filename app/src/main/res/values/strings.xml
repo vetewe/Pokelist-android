@@ -2,7 +2,76 @@
     <string name="app_name">Pokelist</string>
     <string name="pokemon_name">Pokemon Name</string>
     <string name="description">Description</string>
-    <string name="data_name">
-        <item></item>
-    </string>
+    <string-array name="data_name">
+        <item>Bulbasaur</item>
+        <item>Charmander</item>
+        <item>Squirtle</item>
+        <item>Caterpie</item>
+        <item>Weedle</item>
+        <item>Pidgey</item>
+        <item>Rattata</item>
+        <item>Spearow</item>
+        <item>Ekans</item>
+        <item>Pikachu</item>
+        <item>Sandshrew</item>
+        <item>Nidoran</item>
+        <item>Clefairy</item>
+        <item>Vulpix</item>
+        <item>Jigglypuff</item>
+        <item>Zubat</item>
+        <item>Oddish</item>
+        <item>Paras</item>
+        <item>Venonat</item>
+        <item>Diglett</item>
+        <item>Meowth</item>
+        <item>Psyduck</item>
+    </string-array>
+    <string-array name="data_description">
+        <item>Known as the Seed Pokémon, Bulbasaur can survive for days by basking in the sun . It enjoys taking naps in the sun. While it sleeps, the seeds on its back capture the light and use the energy to digest it. It is one of the central characters in the Pokémon anime, being one of Ash Ketchums main Pokémon for the first season. Ashs traveling companion May also briefly owned this Pokémon in Pokémon Advanced . Bulbasaur has also been featured in various manga, with its most recent appearance being as one of the Pokémon owned by protagonist Red in Pokémon Adventures . Bulbasaur has been featured in various merchandise, including toys, key chains, and plushies.Bulbasaur can evolve into Ivysaur at level 16, and can further evolve into Venusaur at level 32. Venusaur can also evolve into Mega Venusaur if the player equips it with Venusaurite, but this feature was first provided in the Pokémon X and Y video games.</item>
+        <item> In the Pokémon Adventures manga , Blue receives Charmander from his grandfather, Professor Oak . In the anime, Ash Ketchum obtains Charmander in the 11th episode of the first season. In the episode, Charmander is abandoned by its former owner, Damian, and is later rescued by Ash and Brock . When Damian sees how powerful Charmander has become after Ashs training, he attempts to get it back, but Charmander refuses to return to Damian due to the trauma of its past and chooses to remain under Ashs care. The tip of Charmanders tail has a distinctive flame, and the size of the flame reflects the individuals physical and emotional health. It is known as the Lizard Pokémon. Charmander evolves into Charmeleon at level 16, which then evolves into Charizard at level 36. Since the release of Pokémon X and Y , Charizard has been able to evolve into two different Mega Charizards, Mega Charizard X or Mega Charizard Y, during battle. This gives it temporary increased stats and a large attack point ability.</item>
+        <item>Squirtle is a small turtle- like Water-type Pokémon, and is also a Starter Pokémon in the Generation I Pokémon video games, alongside Charmander and Bulbasaur . Like most other Pokémon species, Squirtle can evolve at certain levels. Its first evolutionary change form is Wartortle at level 16, and becomes Blastoise at level 36. It also appears in the game Super Smash Bros. Brawl and Super Smash Bros. Ultimate.</item>
+        <item>Caterpie, known as the "caterpillar" Pokémon, was designed by Ken Sugimori . Satoshi Tajiri , the creator of the series, took heavy inspiration from his childhood hobby of insect collecting in creating the various Pokémon species. Caterpie is based on the design of a caterpillar , specifically the caterpillar of the Swallowtail Butterfly . Caterpies name is derived from the word caterpillar as well. Caterpie has green skin with a yellow underbelly, yellow spots, and a large red osmeterium protruding from its forehead. Their green bodies serve as camouflage against foliage, their eyes are patterned to scare away predators, their legs allow them to climb any surface, and the osmeterium on their heads can project a terrible odor to repel predators. Caterpie is the smallest of all the original Pokémon, and grows in size by shedding its skin. Eventually, Caterpie evolves into Metapod , and then Butterfree . It can only ever learn two attacks, Tackle and String Shot, and is very limited in ability until it evolves. However, in all games following Pokémon Platinum , it is also able to learn Snore and Bug Bite.</item>
+        <item>A common sight in forests and grassy areas, it has a two-inch-long venomous stinger on its head, which it uses for defense. It has a keen sense of smell, able to distinguish leaves it likes from leaves it doesnt like with its large nose. It eats a weight of leaves every day.</item>
+        <item>Pidgey (ポッポ, Poppo ) is the name of one of the fictional characters from the Pokémon series. Pidgey is known as a small bird Pokémon, and was originally named Pidge in English in the beta versions of Pokémon Red and Blue . In the video game series as well, which takes place in the Kanto region, Pidgey is the first wild Pokémon that we can meet and also catch (besides Rattata).</item>
+        <item>It will form nests and breed anywhere there is food, each containing at least 40 Rattatas. The colony spends all day searching for food. This cautious species is always listening by moving its ears. Its incisors do not stop growing, so it gnaws on hard objects, such as table legs and door frames, to keep them attached. Because of their similarities and habits of stealing food and gnawing on buildings, it and the Raticate are considered invasive species. The Rattata has the Dark/Normal Alolan Form.</item>
+        <item>It can fly fast, but is not very good at it. Its cries can be heard from a mile away, and it uses them to communicate with other Spearow. It flies around warmer climates, looking for insect Pokémon to eat.</item>
+        <item>Ekans is known as the Rattlesnake Pokémon. This reptilian Pokémon has a rattle at the end of its tail, and is mostly purple while its belly, eyes, rattle, and "ribbon" on top are yellow. It likes the eggs of small bird Pokémon, such as Pidgey or Spearow . Ekans are able to unbend their jaws to swallow large prey whole, although this makes them heavy. Their highly poisonous fangs make them dangerous in the wild as they slither through grass and suddenly attack. Ekans also have other snake-like characteristics, such as using their tongues to test prey in the air, and shedding their skin.</item>
+        <item>Classified as an Electric-type Pokémon, Pikachu is a large yellow mouse with a lightning bolt-shaped tail, and red sacs on its cheek which can generate large amounts of electricity. Originally designed to be the first part of a three-stage evolution line in Red and Blue, Pikachu evolves into Raichu through the use of a "Thunder Stone" item, with Raichu intended to be able to evolve into Gorochu. However the latter was removed due to cartridge space concerns, and a pre-evolution for Pikachu, Pichu, was later added in the sequel titles Pokémon Gold and Silver. Pikachu is widely considered to be the most popular and well-known Pokémon species, largely due to its appearance in the Pokémon anime television series as the companion of series protagonist Ash Ketchum. Pikachu has been well-received by critics, with particular praise given for to its cute design, and it has been regarded as an icon of both the Pokémon franchise and Japanese pop culture as a whole.</item>
+        <item>Sandshrew, also known as the Mouse Pokémon, is a species of brick-skinned, mouse-like Pokémon found in several regions throughout the Pokémon world. Despite its name, Sandshrews appearance borrows the appearance of an anteater or armadillo , from that of the shrew ; its primary means of defense when threatened is to quickly curl its body into a ball, leaving only its hard skin exposed. When rolled up like this, Sandshrew has the potential to withstand many attacks, as well as being dropped from great heights (also similar to a porcupine ). Sandshrews natural environment is buried in arid sand, sandy locations with very little moisture , such as deserts . It chooses this habitat to keep its skin as dry and hard as possible, while the sand also provides good camouflage .</item>
+        <item>Eggs from either strain of Nidoran can contain Nidoran of either gender. It is docile and does not fight, but if forced, its horns and spines can release poison. It uses its whiskers to check the wind for predators, and its incisors to chew berries.</item>
+        <item>Clefairy is a Fairy- type Pokémon known for its cute appearance and gentle nature. Its body is pink with black ears, and it has small wings on its back. Clefairy is often associated with the moon and is seen dancing on nights with a full moon. Its main ability, Magic Guard , protects it from indirect damage, making it a formidable Pokémon in battle. Clefairy evolves from Cleffa and can transform into Clefable with the help of a Moon Stone . Known as a shy Pokémon, Clefairy is often found in caves such as Mt. Moon . Its popularity comes from its combination of strength and adorable visual appeal.</item>
+        <item>Vulpix is a first-generation Fire -type Pokémon known for its elegant appearance and fire-based moves. Vulpix has a small reddish-brown body, with a tail consisting of six branches, which are lighter in color and coiled in shape. When it evolves into Ninetales , its tails change to nine and are longer. Vulpixs eyes are large and sparkling, adding a gentle touch to its appearance. As a Fire- type Pokémon , Vulpix can unleash fire attacks such as Ember and Flamethrower . In its natural form, Vulpix has the ability to control fire, and it is said that it was born with one tail, which split into six as it grew older. In its Alola variant, Vulpix adapts to being an Ice- type , showing its versatility. Vulpix is ​​depicted as an intelligent and loyal Pokémon, often making a valuable partner in battle due to its combination of strength and charming appearance.</item>
+        <item>Jigglypuff (/ˈdʒɪɡlipʌf/ JIG-lee-puf), known in Japan as Purin (Japanese: プリン) is a Pokémon species. Known as the Balloon Pokémon, Jigglypuff evolves from Igglybuff when it reaches a certain point of happiness, and evolves into Wigglytuff when exposed to a Moon Stone. Its English name is a combination of the words "jiggly" and "puff", intended to relate to its jelly-like appearance. The character has been featured in a recurring role in the anime series and served as the focus for several printed adaptions of the franchise. Jigglypuff is also known for singing a lullaby in the Pokémon anime series.</item>
+        <item>Zubat is a Poison/Flying- type Pokémon from the first generation that resembles a bat. Its body is blue with large wings and it has no visible eyes or feet. Zubat uses echolocation to navigate in the dark. Zubat is usually found in caves and dark places. It often uses attacks such as Leech Life and Wing Attack to attack its opponents. Zubat evolves into Golbat , and in later generations can further evolve into Crobat with a high friendship level. Although often considered a nuisance by players due to its frequent appearance in caves, Zubat remains an important part of the wild Pokémon ecosystem.</item>
+        <item>Oddish is usually active at night, planting itself in the ground to absorb nutrients. Its main moves include Absorb ,Poison Powder, dan Stun Spore, yang memanfaatkan sifat racun dan tumbuhan. Oddish berevolusi menjadi Gloom, lalu menjadi VileplumeorBellossomteas. Oddish is often found in forests and grassy areas, and is known for its cute appearance and role in</item>
+        <item>Paras is a parasite-like Pokémon with two mushrooms on its back. Paras can be found in some caves and Safari Zones in Kanto and in Ilex Forest and Bug Catching Contest in Johto. Paras are born with small spores covering their bodies, which grow into tochukaso mushrooms that the Pokémon feed on. It should be noted that the relationship between the host and the fungus is a symbiotic one: the fungus will drain energy from the host, causing Paras to constantly burrow underground in forest areas gnawing on tree roots, as tochukaso draws most of its energy from the roots. In return, the fungus defends its host by spraying poisonous spores at enemies. The mushrooms themselves have powerful healing properties, and are valued for their life-extending properties.</item>
+        <item>His main abilities focus on poisonous and insect attacks, such as Poison Powder andLeech Life. Venonat berevolusi menjadi Venomoth, yang memiliki sayap besar dan kemampuan terbang. Venonat is often found in forests and grassy areas. Despite its furry appearance, it is a formidable Pokémon in battle, especially with its ability to poison and weaken opponents.</item>
+        <item>Diglett is a first-generation Ground known for living underground. Its body is small, shaped like a mound of earth with a brown head, round eyes, and a small red nose. Most of Digletts body is hidden underground, so only its head is visible. As a Ground -type Pokémon , Di Dig and **Earthquake Earthquake , which are effective against Electric, Rock, and Fire-type Pokémon. Diglett is usually found in caves, fields, and sandy areas. Its evolution is Dugtrio. In the Alola variant, Diglett has metallic hair on its head and is a * Ground/Steel type , giving it additional resistance to certain attacks.</item>
+        <item>Known as the Scratch Cat Pokémon , it spends its time sleeping during the day and roaming the city streets at night. Meowth can evolve into Persian in the Kanto and Alola regions , and into Perrserker in the Galar region . Meowth is often considered a rival to Pikachu , the main mascot of Pokémon, due to having opposite Pokédex numbers: Meowth at 052 and Pikachu at 025. In the anime episode Go West Young Meowth , Team Rockets Meowths backstory is shown with Meowth attempting to win the heart of a female Meowth named Meowzie, but his attempts end in vain as Meowzie considers Meowth to be a crazy creature.</item>
+        <item>Psyduck is a Water -type Pokémon from the first generation known for its confused appearance and frequent holding of its head. Its body is yellow with an orange beak and feet. Psyduck is often seen confused and suffers from chronic headaches. Despite its slow appearance, Psyduck has incredible psychic powers that emerge when its headaches peak. It can use water attacks such as Water Gun as well as psychic attacks such as Confusion . Psyduck evolves into Golduck , which is stronger and more agile, with full control over its psychic powers. Psyduck is known for its cute appearance and clumsy nature, but its hidden strengths make it an unpredictable Pokémon in battle.</item>
+    </string-array>
+    <integer-array name="data_photo">
+        <item>@drawable/bulbasaur</item>
+        <item>@drawable/charmander</item>
+        <item>@drawable/squirtle</item>
+        <item>@drawable/caterpie</item>
+        <item>@drawable/weedle</item>
+        <item>@drawable/pidgey</item>
+        <item>@drawable/rattata</item>
+        <item>@drawable/spearow</item>
+        <item>@drawable/ekans</item>
+        <item>@drawable/pikachu</item>
+        <item>@drawable/sandshrew</item>
+        <item>@drawable/nidoran</item>
+        <item>@drawable/clefairy</item>
+        <item>@drawable/vulpix</item>
+        <item>@drawable/jigglypuff</item>
+        <item>@drawable/zubat</item>
+        <item>@drawable/oddish</item>
+        <item>@drawable/paras</item>
+        <item>@drawable/venonat</item>
+        <item>@drawable/diglet</item>
+        <item>@drawable/meowth</item>
+        <item>@drawable/psyduck</item>
+    </integer-array>
 </resources>
