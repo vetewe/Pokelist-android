@@ -2,6 +2,10 @@
     <string name="app_name">Pokelist</string>
     <string name="pokemon_name">Pokemon Name</string>
     <string name="description">Description</string>
+    <string name="list_layout">Layout List</string>
+    <string name="grid_layout">Layout Grid</string>
+    <string name="about_page">About Page</string>
+    <string name="my_name">Vira Tiara Witri</string>
     <string-array name="data_name">
         <item>Bulbasaur</item>
         <item>Charmander</item>

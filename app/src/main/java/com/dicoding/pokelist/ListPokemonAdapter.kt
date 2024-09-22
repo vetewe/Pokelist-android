@@ -8,6 +8,11 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
 class ListPokemonAdapter(private val ListPokemon: ArrayList<Pokemon>): RecyclerView.Adapter<ListPokemonAdapter.ListViewHolder>() {
+    private lateinit var onItemClickCallback: OnItemClickCallback
+
+    fun setOnItemClickCallback(onItemClickCallback : OnItemClickCallback) {
+        this.onItemClickCallback = onItemClickCallback
+    }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListViewHolder {
         val view: View = LayoutInflater.from(parent.context).inflate(R.layout.item_row_pokemon, parent, false)
@@ -19,6 +24,9 @@ class ListPokemonAdapter(private val ListPokemon: ArrayList<Pokemon>): RecyclerV
         holder.imgPhoto.setImageResource(photo)
         holder.tvName.text = name
         holder.tvDescription.text = description
+        holder.itemView.setOnClickListener {
+            onItemClickCallback.onItemClicked(ListPokemon[holder.adapterPosition])
+        }
     }
 
     override fun getItemCount(): Int = ListPokemon.size
@@ -27,5 +35,9 @@ class ListPokemonAdapter(private val ListPokemon: ArrayList<Pokemon>): RecyclerV
         val imgPhoto: ImageView = itemView.findViewById(R.id.img_item_photo)
         val tvName: TextView = itemView.findViewById(R.id.tv_item_name)
         val tvDescription: TextView = itemView.findViewById(R.id.tv_item_description)
+    }
+
+    interface OnItemClickCallback {
+        fun onItemClicked(data: Pokemon)
     }
 }
