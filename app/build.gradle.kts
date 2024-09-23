@@ -48,4 +48,8 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
     implementation(libs.circleimageview)
+    implementation (libs.androidx.core.ktx.v190)
+    implementation(libs.glide)
+    annotationProcessor(libs.compiler)
+    implementation (libs.androidx.viewpager2)
 }

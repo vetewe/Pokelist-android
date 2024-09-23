@@ -1,11 +1,24 @@
 <resources>
-    <string name="app_name">Pokelist</string>
+    <string name="app_name">PokeList</string>
     <string name="pokemon_name">Pokemon Name</string>
     <string name="description">Description</string>
-    <string name="list_layout">Layout List</string>
-    <string name="grid_layout">Layout Grid</string>
+    <string name="list">List Layout</string>
+    <string name="grid">Grid Layout</string>
     <string name="about_page">About Page</string>
+    <string name="hello">HELLO THERE! ᥫ᭡</string>
+    <string name="made_by">MADE BY : </string>
+    <string name="find">Lets Find \nYour Favourite Pokemon</string>
+    <string name="see">See More Pokemon</string>
     <string name="my_name">Vira Tiara Witri</string>
+    <string name="email">vtiaraw2@gmail.com</string>
+    <string name="favorite">Favorite</string>
+    <string name="share">Share</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="gender">Gender</string>
+    <string name="type">Type</string>
+    <string name="abilities">Abilities</string>">
+    <string name="weaknesses">Weaknesses</string>
     <string-array name="data_name">
         <item>Bulbasaur</item>
         <item>Charmander</item>
@@ -78,4 +91,124 @@
         <item>@drawable/meowth</item>
         <item>@drawable/psyduck</item>
     </integer-array>
+    <string-array name="data_height">
+        <item>0,7 m</item>
+        <item>0,6 m</item>
+        <item>0,5 m</item>
+        <item>0,3 m</item>
+        <item>0,3 m</item>
+        <item>0,3 m</item>
+        <item>0,3 m</item>
+        <item>0,3 m</item>
+        <item>2,0 m</item>
+        <item>0,4 m</item>
+        <item>0,6 m</item>
+        <item>0,4 m</item>
+        <item>0,6 m</item>
+        <item>0,6 m</item>
+        <item>0,5 m</item>
+        <item>0,8 m</item>
+        <item>0,5 m</item>
+        <item>0,3 m</item>
+        <item>1,0 m</item>
+        <item>0,2 m</item>
+        <item>0,4 m</item>
+        <item>0,8 m</item>
+    </string-array>
+    <string-array name="data_weight">
+        <item>6,9 kg</item>
+        <item>8,5 kg</item>
+        <item>9,0 kg</item>
+        <item>2,9 kg</item>
+        <item>3,2 kg</item>
+        <item>1,8 kg</item>
+        <item>3,5 kg</item>
+        <item>2,0 kg</item>
+        <item>6,9 kg</item>
+        <item>6,0 kg</item>
+        <item>12,0 kg</item>
+        <item>7,0 kg</item>
+        <item>7,5 kg</item>
+        <item>9,9 kg</item>
+        <item>5,5 kg</item>
+        <item>7,5 kg</item>
+        <item>5,4 kg</item>
+        <item>30,0 kg</item>
+        <item>4,0 kg</item>
+        <item>0,8 kg</item>
+        <item>4,2 kg</item>
+        <item>19,6 kg</item>
+    </string-array>
+    <string-array name="data_type">
+        <item>Grass, Poison</item>
+        <item>Fire</item>
+        <item>Water</item>
+        <item>Bug</item>
+        <item>Bug, Poison</item>
+        <item>Normal, Flying</item>
+        <item>Normal</item>
+        <item>Normal, Flying</item>
+        <item>Poison</item>
+        <item>Electric</item>
+        <item>Ground</item>
+        <item>Poison</item>
+        <item>Fairy</item>
+        <item>Fire</item>
+        <item>Normal, Fairy</item>
+        <item>Poison, Flying</item>
+        <item>Grass, Poison</item>
+        <item>Bug, Grass</item>
+        <item>Bug, Poison</item>
+        <item>Ground</item>
+        <item>Normal</item>
+        <item>Water</item>
+    </string-array>
+    <string-array name="data_abilities">
+        <item>Overgrow</item>
+        <item>Blaze</item>
+        <item>Torrent</item>
+        <item>Shield Dust</item>
+        <item>Shield Dust</item>
+        <item>Keen Eye \nTangled Feet</item>
+        <item>Run Away, Guts</item>
+        <item>Keen Eye</item>
+        <item>Shed Skin \n Intimidate</item>
+        <item>Static</item>
+        <item>Sand Veil</item>
+        <item>Poison Point \n Rivalry</item>
+        <item>Cute Charm \n Magic Guard</item>
+        <item>Flash Fire</item>
+        <item>Cute Charm \n Competitive</item>
+        <item>Inner Focus</item>
+        <item>Clorophyll</item>
+        <item>Effect Spore \n Dry Skin</item>
+        <item>Campound Eyes \nTinted Lens</item>
+        <item>Sand Veil \n Arena Trap</item>
+        <item>Pick Up \n Technician</item>
+        <item>Damp \n Cloud Nine</item>
+    </string-array>
+    <string-array name="data_weaknesses">
+        <item>Fire, Ice \n Flying, Psychic</item>
+        <item>Water, Ground, Rock</item>
+        <item>Grass, Electric</item>
+        <item>Fire, Flying, Rock</item>
+        <item>Fire, Flying \n Psychic, Rock</item>
+        <item>Electric, Ice, Rock</item>
+        <item>Fighting</item>
+        <item>Electric, Ice, Rock</item>
+        <item>Ground, Psychic</item>
+        <item>Ground</item>
+        <item>Water, Grass, Ice</item>
+        <item>Ground, Psychic</item>
+        <item>Poison, Steel</item>
+        <item>Water, Ground, Rock</item>
+        <item>Poison, Steel</item>
+        <item>Electric, Ice \n Psychic, Rock</item>
+        <item>Fire, Ice \n Flying, Psychic</item>
+        <item>Fire, Ice, Poison \n Flying, Bug, Rock</item>
+        <item>Fire, Flying  \n Psychic, Rock</item>
+        <item>Water, Grass, Ice</item>
+        <item>Fighting</item>
+        <item>Grass, Electric</item>
+    </string-array>
 </resources>

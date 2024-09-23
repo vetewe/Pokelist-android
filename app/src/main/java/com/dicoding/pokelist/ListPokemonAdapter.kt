@@ -7,15 +7,17 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class ListPokemonAdapter(private val ListPokemon: ArrayList<Pokemon>): RecyclerView.Adapter<ListPokemonAdapter.ListViewHolder>() {
+class ListPokemonAdapter(private val ListPokemon: ArrayList<Pokemon>) :
+    RecyclerView.Adapter<ListPokemonAdapter.ListViewHolder>() {
     private lateinit var onItemClickCallback: OnItemClickCallback
 
-    fun setOnItemClickCallback(onItemClickCallback : OnItemClickCallback) {
+    fun setOnItemClickCallback(onItemClickCallback: OnItemClickCallback) {
         this.onItemClickCallback = onItemClickCallback
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListViewHolder {
-        val view: View = LayoutInflater.from(parent.context).inflate(R.layout.item_row_pokemon, parent, false)
+        val view: View =
+            LayoutInflater.from(parent.context).inflate(R.layout.item_row_pokemon, parent, false)
         return ListViewHolder(view)
     }
 
