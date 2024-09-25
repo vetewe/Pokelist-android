@@ -36,15 +36,16 @@
 
         <TextView
             android:id="@+id/tv_height"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
             android:text="@string/height"
+            android:textAlignment="center"
             android:textStyle="bold"
             app:layout_constraintEnd_toStartOf="@+id/tv_weight"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintHorizontal_chainStyle="spread"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/img_item_photo" />
+            app:layout_constraintTop_toTopOf="@+id/tv_weight" />
 
         <TextView
             android:id="@+id/tv_height_value"
@@ -57,13 +58,17 @@
 
         <TextView
             android:id="@+id/tv_weight"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
             android:text="@string/weight"
+            android:textAlignment="center"
             android:textStyle="bold"
+
             app:layout_constraintEnd_toStartOf="@+id/tv_gender"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/tv_height"
-            app:layout_constraintTop_toTopOf="@+id/tv_height" />
+            app:layout_constraintTop_toBottomOf="@+id/img_item_photo" />
 
         <TextView
             android:id="@+id/tv_weight_value"
@@ -76,13 +81,15 @@
 
         <TextView
             android:id="@+id/tv_gender"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/gender"
+            android:textAlignment="center"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/tv_weight"
-            app:layout_constraintTop_toTopOf="@+id/tv_height" />
+            app:layout_constraintTop_toTopOf="@+id/tv_weight" />
 
         <LinearLayout
             android:id="@+id/gender_icons"
@@ -111,15 +118,17 @@
 
         <TextView
             android:id="@+id/tv_type"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
             android:text="@string/type"
+            android:textAlignment="center"
+
             android:textStyle="bold"
             app:layout_constraintEnd_toStartOf="@+id/tv_abilities"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintHorizontal_chainStyle="spread"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tv_height_value" />
+            app:layout_constraintTop_toTopOf="@+id/tv_abilities" />
 
         <TextView
             android:id="@+id/tv_type_value"
@@ -132,13 +141,17 @@
 
         <TextView
             android:id="@+id/tv_abilities"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
             android:text="@string/abilities"
+            android:textAlignment="center"
             android:textStyle="bold"
+
             app:layout_constraintEnd_toStartOf="@+id/tv_weaknesses"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/tv_type"
-            app:layout_constraintTop_toTopOf="@+id/tv_type" />
+            app:layout_constraintTop_toBottomOf="@+id/tv_weight_value" />
 
         <TextView
             android:id="@+id/tv_abilities_value"
@@ -151,13 +164,16 @@
 
         <TextView
             android:id="@+id/tv_weaknesses"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/weaknesses"
+            android:textAlignment="center"
             android:textStyle="bold"
+
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/tv_abilities"
-            app:layout_constraintTop_toTopOf="@+id/tv_type" />
+            app:layout_constraintTop_toTopOf="@+id/tv_abilities" />
 
         <TextView
             android:id="@+id/tv_weaknesses_value"

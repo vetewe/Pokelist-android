@@ -91,7 +91,6 @@ class DetailActivity : AppCompatActivity() {
         } else {
             item.setIcon(R.drawable.ic_emptyfav)
         }
-        // Implementasi logika penyimpanan status favorit
     }
 
     private fun sharePokemon() {

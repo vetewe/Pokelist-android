@@ -21,6 +21,7 @@ class AboutActivity : AppCompatActivity() {
         supportActionBar?.title = ""
     }
 
+    @Suppress("DEPRECATION")
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             android.R.id.home -> {

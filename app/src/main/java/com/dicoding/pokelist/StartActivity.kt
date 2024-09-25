@@ -30,6 +30,7 @@ class StartActivity : AppCompatActivity(), View.OnClickListener {
             R.id.btn_tomain -> {
                 val intent = Intent(this@StartActivity, MainActivity::class.java)
                 startActivity(intent)
+                finish()
             }
         }
     }
