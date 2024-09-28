@@ -12,6 +12,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import android.content.Intent
 import android.view.Menu
+import android.widget.Toast
 
 class DetailActivity : AppCompatActivity() {
     private var isFavorite = false
@@ -88,8 +89,10 @@ class DetailActivity : AppCompatActivity() {
         isFavorite = !isFavorite
         if (isFavorite) {
             item.setIcon(R.drawable.ic_fav)
+            Toast.makeText(this, "Pokemon added to favorites", Toast.LENGTH_SHORT).show()
         } else {
             item.setIcon(R.drawable.ic_emptyfav)
+            Toast.makeText(this, "Pokemon removed from favorites", Toast.LENGTH_SHORT).show()
         }
     }
 
